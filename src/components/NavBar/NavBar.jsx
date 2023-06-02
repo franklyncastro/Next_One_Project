@@ -20,6 +20,9 @@ const NavBar = () => {
           <Link to="/contacto" className={style.link}>
             <i class="fa-solid fa-id-card-clip"></i> <span className={style.span}>CONTACTO</span>
           </Link>
+          <Link to="/" className={style.link}>
+          <i class="fas fa-sign-out-alt"></i> <span className={style.span}>EXIT</span>
+          </Link>
         </div>
       </nav>
   )

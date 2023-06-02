@@ -5,7 +5,10 @@ import style from "../Style/Landing.module.css";
 const Landing = () => {
   return (
     <div className={style.container}>
-      <marquee className={style.title}>Bienvenido</marquee>
+      <h1>Bienvenido</h1>
+      {/* <marquee className={style.title}>Bienvenido</marquee> */}
+      <div className={style.loader}></div>
+      
       <div className={style.container2}>
         <Link to="/inicio" className={style.link}>
           <i class="fa-solid fa-scissors"></i> Entrar
