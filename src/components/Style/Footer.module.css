@@ -1,0 +1,9 @@
+.container{
+    text-align: center;
+    background: url('../../img/bg.jpg');
+    padding:40px;
+    color: #908d8d;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}

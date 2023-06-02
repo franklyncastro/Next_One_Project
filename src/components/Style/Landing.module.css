@@ -1,0 +1,58 @@
+.container{
+   background-image: url('../../img/background-landing.jpg');
+   background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: cover;
+}
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title{
+    font-size: 5rem;
+    color: #e7dddd;
+    background-color: #6666667b;
+    font-weight: 300;
+    text-shadow: 1px 1px 12px crimson;
+}
+
+.link {
+    width: 200px;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    text-decoration: none;  
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 2px 2px 2px #c5c5c5,
+                -3px -3px 4px #ffffff;
+                margin: 0 auto;
+                margin-top: 250px;
+   }
+   
+   .link:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+
+   .link:hover{
+    transform: scale(1.1);
+    color: crimson;
+}
+
+.span{
+    color: #4e4d4d;
+}
+
