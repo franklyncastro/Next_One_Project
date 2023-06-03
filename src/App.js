@@ -17,11 +17,8 @@ function App() {
 
 
       {
-        location.pathname === '/' ? <Landing/> : <div> </div>
+        location.pathname === '/' ? <Landing/> : <NavBar/>
       }
-
-      <NavBar/>
-
       <Routes>
         <Route exact path='/producto' element={<Product/>}/>
         <Route exact path='/inicio' element={<Home/>}/>

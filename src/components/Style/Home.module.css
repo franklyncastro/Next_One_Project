@@ -1,6 +1,7 @@
 .container{
     display: flex;
     flex-direction: column; 
+    /* font-family: 'Roboto'; */
 }
 
 .header{
@@ -16,6 +17,7 @@
     display: flex;
     gap: 25px;
     align-items: center;
+    
 }
 
 
@@ -51,6 +53,7 @@
     font-size: 3rem;
     font-weight: 300;
     color: crimson;
+    font-family: 'Roboto';
 }
 
 .content{
@@ -63,6 +66,7 @@
     font-size: 19px;
     letter-spacing: 1px;
     color: rgb(47, 45, 45);
+    font-family: 'Roboto';
 }
 
 em{
@@ -95,11 +99,17 @@ em{
     gap: 25px;
 }
 
+.lista{
+    display: flex;
+    flex-direction: column;
+}
+
 .title2{
     margin-top: 3.7rem;
     font-size: 3rem;
     font-weight: 100;
-    color: #000;
+    color: crimson;
+    font-family: 'Roboto';
 }
 
 .items{
@@ -110,12 +120,15 @@ em{
     font-size: 18px;
     font-weight: 300;
     align-items: center;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 
 .items::before {
     content: "★";
-    color: #c8c80a;
-    font-size: 1.2rem;
+    color: #f3f30a;
+    font-size: 1.3rem;
+    text-shadow: 1px 2px 3px black;
 }
 
 .corteImg{
